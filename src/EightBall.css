@@ -1,0 +1,23 @@
+.EightBall {
+  box-shadow: 8px 8px 15px #455367, -8px -8px 15px #89a6c4;
+  margin: 50px auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background: radial-gradient(circle at 30% 107%, #fdf497 3%, #fdf497 30%, #fd5949 30%, #d6249f 60%, #285AEB 90%);
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.EightBall:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px #34495e, -10px -10px 20px #9bb1cc;
+}
